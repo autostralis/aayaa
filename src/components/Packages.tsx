@@ -15,7 +15,7 @@ const Packages = () => {
   const packages = [
     {
       name: 'Starter',
-      price: '$500 - $2K',
+      price: '₹10,000 – ₹50,000',
       description: 'Perfect for small businesses and startups',
       features: [
         'Up to 3 micro-influencers',
@@ -29,7 +29,7 @@ const Packages = () => {
     },
     {
       name: 'Growth',
-      price: '$2K - $5K',
+      price: '₹50,000 – ₹2,00,000',
       description: 'Ideal for growing brands',
       features: [
         'Up to 8 influencers',
@@ -44,7 +44,7 @@ const Packages = () => {
     },
     {
       name: 'Premium',
-      price: '$5K - $15K',
+      price: '₹2,00,000 – ₹7,00,000',
       description: 'For established businesses',
       features: [
         'Up to 15 influencers',
@@ -60,7 +60,7 @@ const Packages = () => {
     },
     {
       name: 'Elite',
-      price: '$15K - $50K',
+      price: '₹7,00,000- ₹20,00,000 ',
       description: 'For large enterprises',
       features: [
         'Up to 30 premium influencers',
@@ -77,7 +77,7 @@ const Packages = () => {
     },
     {
       name: 'Enterprise',
-      price: 'Custom',
+      price: 'above ₹20,00,000',
       description: 'Tailored solutions for large organizations',
       features: [
         'Unlimited influencers',
