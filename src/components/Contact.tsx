@@ -168,11 +168,11 @@ const Contact = () => {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   >
                     <option value="">Select budget</option>
-                    <option value="500-2k">$500 - $2K</option>
-                    <option value="2k-5k">$2K - $5K</option>
-                    <option value="5k-15k">$5K - $15K</option>
-                    <option value="15k-50k">$15K - $50K</option>
-                    <option value="50k+">$50K+</option>
+                    <option value="10k-50k">₹10,000 – ₹50,000</option>
+                    <option value="50k-2l">₹50,000 – ₹2,00,000</option>
+                    <option value="2l-7l">₹2,00,000 – ₹7,00,000</option>
+                    <option value="7l-20l">₹7,00,000 – ₹20,00,000</option>
+                    <option value="20l+">₹20,00,000+</option>
                   </select>
                 </div>
               </div>
