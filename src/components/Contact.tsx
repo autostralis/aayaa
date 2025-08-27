@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, MapPin, Mail, Phone } from 'lucide-react';
+import { Send, Mail } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -40,6 +40,7 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* Left Column */}
           <div>
             <div className="bg-slate-700/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-600/50">
               <h3 className="text-2xl font-bold text-white mb-8">Get in Touch</h3>
@@ -47,17 +48,15 @@ const Contact = () => {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="bg-blue-500 p-3 rounded-lg">
-                    <Mail className="w-6 h-6 text-white" />
+                    <Mail className="w-6 h-6 text-white" aria-hidden="true" />
                   </div>
                   <div>
                     <div className="text-white font-semibold">Email</div>
                     <div className="text-slate-300">hello@spanzor.com</div>
                   </div>
-               
-                  </div>
                 </div>
               </div>
-              
+
               <div className="mt-8 p-6 bg-blue-500/10 rounded-xl border border-blue-500/20">
                 <h4 className="text-lg font-semibold text-white mb-2">Quick Response Guarantee</h4>
                 <p className="text-slate-300">We respond to all inquiries within 24 hours during business days.</p>
@@ -65,6 +64,7 @@ const Contact = () => {
             </div>
           </div>
 
+          {/* Right Column (Form) */}
           <div className="bg-white rounded-2xl p-8">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
