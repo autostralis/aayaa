@@ -53,25 +53,7 @@ const Contact = () => {
                     <div className="text-white font-semibold">Email</div>
                     <div className="text-slate-300">hello@spanzor.com</div>
                   </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="bg-blue-500 p-3 rounded-lg">
-                    <Phone className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <div className="text-white font-semibold">Phone</div>
-                    <div className="text-slate-300">+1 (555) 123-4567</div>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="bg-blue-500 p-3 rounded-lg">
-                    <MapPin className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <div className="text-white font-semibold">Office</div>
-                    <div className="text-slate-300">San Francisco, CA</div>
+               
                   </div>
                 </div>
               </div>
